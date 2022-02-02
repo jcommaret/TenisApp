@@ -1,0 +1,62 @@
+@import "./fonts.scss";
+
+body{
+    background: url("./../public/background.png") no-repeat center fixed;
+    max-width: 1920px;
+    height: 1080px;
+    padding: 113px 1120px 0 160px;
+    background-size: cover;
+}
+.container{
+    width: 640px;
+}
+input{
+    height: 64px;
+    margin: 0 0 70px;
+    padding: 25px 367px 25px 25px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: $Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #ebad65;
+    border:none; 
+}
+
+::placeholder{color:#ebad65}
+
+input:focus { 
+    outline: none !important;
+    border-color: #ebad65;
+    box-shadow: 0 0 10px #ebad65;
+}
+
+.player{
+    height: 193px;
+    margin: 70px 0 30px;
+    padding: 0 55px 0 0;
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    &-name{
+        margin: 40px 48px 40px 12px;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #f2753b;
+    }
+    &-picture{
+        float: left;
+        width: 234px;
+        height: 193px;
+        overflow: hidden;
+    }
+    
+}
