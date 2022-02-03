@@ -1,7 +1,8 @@
 import './index.scss'
-import './fonts.scss'
+import './fonts/fonts.scss'
 import './Home.scss'
-import Players from './components/datadisplay'
+
+import Players from './components/Players'
     
 function Home() {
   return (

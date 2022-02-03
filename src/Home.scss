@@ -1,4 +1,4 @@
-@import "./fonts.scss";
+@import "./fonts/fonts.scss";
 
 body{
     background: url("./../public/background.png") no-repeat center fixed;
@@ -37,12 +37,19 @@ input:focus {
 
 .player{
     height: 193px;
-    margin: 70px 0 30px;
-    padding: 0 55px 0 0;
+    margin: 70px 0px;
     box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.3);
     background-color: #fff;
+    &-min{
+        padding-top: 5px;
+        object-fit: cover;
+        object-position: top;
+        float: left;
+        width: 234px;
+        height: 188px;
+    }
     &-name{
-        margin: 40px 48px 40px 12px;
+        padding-top:40px;
         font-family: Montserrat;
         font-size: 24px;
         font-weight: bold;
@@ -54,9 +61,94 @@ input:focus {
     }
     &-picture{
         float: left;
-        width: 234px;
-        height: 193px;
-        overflow: hidden;
+        width: 423.7px;
+        height: 894px;
+        margin: 88px 429.1px 0 0;
+        box-shadow: 0 0 90px 0 rgba(0, 0, 0, 0.5);
+
+        
     }
-    
+}
+.datas{
+    display:flex;
+    flex-direction: row;
+}
+.stat{
+    text-transform: uppercase;
+    flex:1;
+    margin-top:40px;
+    span{
+        margin: 0 0 5px;
+        font-family: $Mulish;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2px;
+        color: rgba(0, 0, 0, 0.3);
+    }
+    p{
+        color:#f2753b;
+        font-weight:bold;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight:bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+}
+
+
+
+/*
+default style for popup
+*/
+.popup-content {
+    position:fixed;
+    top:187px !important;
+    left:50px !important;
+    right:50px !important;
+    background: white;
+    width: 95%;
+    height: 95%;
+    .player{
+        box-shadow: 0px !important;
+    }
+    .picture{
+        float:left;
+        height:800px;
+    }
+    .naming{
+        margin-top:100px;
+    }
+    .firstname{
+        margin: 0 416px 168px 2px;
+        -webkit-text-stroke: 5px #f2753b;
+        font-family: $Montserrat;
+        font-size: 120px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: rgba(242, 117, 59, 0);
+    }
+    .lastname{
+        font-family: $Montserrat;
+        font-size: 170px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #f2753b;
+    }
+}
+
+
+.popup-arrow{
+    display: none;
 }
