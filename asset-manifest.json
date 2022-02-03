@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tenis/static/css/main.318e66c9.css",
-    "main.js": "/tenis/static/js/main.660ffa6b.js",
-    "static/js/787.da548297.chunk.js": "/tenis/static/js/787.da548297.chunk.js",
-    "static/media/background.png": "/tenis/static/media/background.4a741270c8cc209ec0dc.png",
-    "static/media/Montserrat-Bold.eot": "/tenis/static/media/Montserrat-Bold.78999d9664616ebc4888.eot",
-    "static/media/Montserrat-Bold.ttf": "/tenis/static/media/Montserrat-Bold.cfaa6b8889aa2a3864bd.ttf",
-    "static/media/Montserrat-Bold.woff": "/tenis/static/media/Montserrat-Bold.0329bf8fcbfdd06caa24.woff",
-    "static/media/Mulish-Bold.eot": "/tenis/static/media/Mulish-Bold.f8df9e2a1e3ac60b8656.eot",
-    "static/media/Mulish-Bold.ttf": "/tenis/static/media/Mulish-Bold.7c7bac4d8bf1e27065f0.ttf",
-    "static/media/Mulish-Bold.woff": "/tenis/static/media/Mulish-Bold.dc7421f629b5378ef594.woff",
-    "index.html": "/tenis/index.html",
-    "main.318e66c9.css.map": "/tenis/static/css/main.318e66c9.css.map",
-    "main.660ffa6b.js.map": "/tenis/static/js/main.660ffa6b.js.map",
-    "787.da548297.chunk.js.map": "/tenis/static/js/787.da548297.chunk.js.map"
+    "main.css": "/TenisApp/static/css/main.0b983303.css",
+    "main.js": "/TenisApp/static/js/main.42af1af8.js",
+    "static/js/787.da548297.chunk.js": "/TenisApp/static/js/787.da548297.chunk.js",
+    "static/media/background.png": "/TenisApp/static/media/background.4a741270c8cc209ec0dc.png",
+    "static/media/Montserrat-Bold.eot": "/TenisApp/static/media/Montserrat-Bold.78999d9664616ebc4888.eot",
+    "static/media/Montserrat-Bold.ttf": "/TenisApp/static/media/Montserrat-Bold.cfaa6b8889aa2a3864bd.ttf",
+    "static/media/Montserrat-Bold.woff": "/TenisApp/static/media/Montserrat-Bold.0329bf8fcbfdd06caa24.woff",
+    "static/media/Mulish-Bold.eot": "/TenisApp/static/media/Mulish-Bold.f8df9e2a1e3ac60b8656.eot",
+    "static/media/Mulish-Bold.ttf": "/TenisApp/static/media/Mulish-Bold.7c7bac4d8bf1e27065f0.ttf",
+    "static/media/Mulish-Bold.woff": "/TenisApp/static/media/Mulish-Bold.dc7421f629b5378ef594.woff",
+    "index.html": "/TenisApp/index.html",
+    "main.0b983303.css.map": "/TenisApp/static/css/main.0b983303.css.map",
+    "main.42af1af8.js.map": "/TenisApp/static/js/main.42af1af8.js.map",
+    "787.da548297.chunk.js.map": "/TenisApp/static/js/787.da548297.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.318e66c9.css",
-    "static/js/main.660ffa6b.js"
+    "static/css/main.0b983303.css",
+    "static/js/main.42af1af8.js"
   ]
 }
